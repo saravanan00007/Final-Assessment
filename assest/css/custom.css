@@ -1,0 +1,145 @@
+/* navbar strip */
+.header-strip{
+    background-color: #2d3e50;
+}
+.header-strip .list-group-item{
+    background-color: #2d3e50;
+}
+.header-strip .list-1 li{
+    padding: 4px 10px;
+    margin: 0;
+}
+.header-strip .list-2 li{
+    padding: 4px 13px;
+    margin: 0;  
+}
+.header-strip ul li a{
+    color: #ffffff;
+    font-size: 14px; 
+}
+/* header */
+.header .brand-name li{
+    background-color: #f7f4f400;
+    border: 0;
+    padding: 0;
+
+}
+.brand-name li a h1{
+    font-weight: bold;
+    color: #000000;
+    font-size: 38px;
+    margin: 0;
+
+}
+#navbarSupportedContent ul .nav-item{
+    padding: 0 16px;
+    font-weight: bold;
+}
+#navbarSupportedContent ul .nav-item a{
+    padding: 0;
+    font-size: 13px;
+}
+/* carousal-wrap */
+.carousal-wrap {
+    height: 555px; 
+    width: 100%;
+}
+.carousal-wrap .carousel-control-prev,
+.carousal-wrap .carousel-control-next{
+    margin-top: 18%;
+    width: 64px;
+    height: 66px;
+    vertical-align: middle;
+    background-color: #58737d;
+}
+.carousal-wrap .carousel-control-prev:hover,
+.carousal-wrap .carousel-control-next:hover{
+    background-color: #1fceaf;
+}
+.carousel-caption h1{
+    margin: -4px 0 0 0px;
+    font-size: 46px;
+    font-weight: bold;
+}
+.carousel-caption h3{
+    margin: 3px 0 0 4px;
+    font-size: 23px;
+}
+.carousel-caption .button-group .btn-outline-success{
+    width: 178px;
+    height: 49px;
+    margin: 0 19px 0 0;
+    color: white;
+    font-size: 18px;
+    background-color: #1fceaf;
+}
+.carousel-caption .button-group .btn-outline-danger{
+    height: 48px;
+    width: 129px;
+    color: white;
+    font-size: 18px;
+    border: #ffffff solid 1px;
+}
+.carousel-caption .button-group .btn-outline-danger:hover{
+    background-color: #1fceaf;
+    border: #1fceaf;
+}
+/* form */
+.form-section{
+    width: 100%;
+    background-color: #2d3e50;
+    padding: 18px 0 16px 0;
+}
+.form-section .form-inline h3{
+   color: #ffffff;
+   margin-right: 2%;
+}
+.form-section .destination-part input{
+    height: 39px;
+    border: 0;
+    width: 258px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+.form-section .destination-part i{
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    font-size: 22px;
+    color: #7a8c92;
+}
+.form-section .form-inline button{
+    background-color:#1cd2ad;
+    margin-left: 2%;
+    padding: 6px;
+    width: 9%;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+@media only screen and (max-width: 1440px) { 
+    .carousal-wrap{
+        height: 555px;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 1024px) { 
+    .carousal-wrap{
+        height: 405px;
+    }
+ }
+ @media (min-width: 320px) and (max-width: 768px) { 
+    .carousal-wrap{
+        height: 406px;
+    }
+ }
