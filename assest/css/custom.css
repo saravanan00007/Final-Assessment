@@ -189,9 +189,11 @@
     }
     .carosuel3-wrap .carousel-item .card:hover{
         border-top: #1bd3b1 4px solid;
+ 
     }
     .blog .icon-wrap .col-sm-12:hover{
         color:#1fceaf;
+
     }
     
     /* footer */
@@ -259,5 +261,4 @@
     }
     
     
-    
-    
+   
