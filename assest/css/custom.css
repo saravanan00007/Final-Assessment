@@ -95,7 +95,7 @@
         background-color: #2d3e50;
         padding: 20px 0;
     }
-    .form-section .form-inline h3{
+    .form-section .input-part h3{
        color: #ffffff;
        margin-right: 23px;
     }
@@ -113,7 +113,7 @@
         font-size: 22px;
         color: #7a8c92;
     }
-    .form-section .form-inline button{
+    .form-section .input-part button{
         background-color:#1cd2ad;
         margin-left: 2%;
         padding: 6px;
@@ -261,4 +261,46 @@
     }
     
     
-   
+   /* media */
+   @media only screen and (max-width: 425px) {
+    .form-section .title-part{
+        text-align: center !important;
+    }
+    .form-section .input-part .input-place{
+        padding: 3% !important; 
+    }
+    .form-section .button-part{
+        padding: 0 !important;
+        margin: 4% auto !important;
+    }
+    .carousal-wrap .carousel-caption{
+       top: 15% !important;
+    }
+    .carousal-wrap .carousel-caption .btn-outline-success{
+        margin: 0px;
+     }
+     .carousal-wrap .carousel-caption .btn-outline-danger{
+        margin-top: 5%;
+        width: 174px;
+     }
+     .footer-strip ul{
+         width: 100%;
+         margin: 0px !important;
+     }
+     .footer .footer-part{
+         padding-bottom: 5% !important;
+     }
+     .carousal-wrap .carousel-control-prev, 
+     .carousal-wrap .carousel-control-next{
+        margin-top: 50%;
+     }
+  }
+
+  @media only screen and (min-width: 426px) and (max-width: 768px){
+    .footer-strip ul{
+        width: 65%;
+    }
+    .form-section .input-part .input-place{
+        padding: 2% !important; 
+    }
+  }
