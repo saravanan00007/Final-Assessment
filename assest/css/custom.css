@@ -225,7 +225,11 @@
     .blog .icon-wrap h5{
        margin: 5% 0;
     }
+
+    
+
     /* card-carosual3 */
+    
     .card-carosual3{
         width: 100%;
         background-color: #ffffff;
@@ -239,11 +243,61 @@
     }
     .carosuel3-wrap .carousel-item .card:hover{
         border-top: #1bd3b1 4px solid;
+    }
+    
+    .card-carosual3{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .carosuel3-wrap .cardCarousel-inner .card{
+        width: 93%;  
+        text-align: left;
+    }
+    .carosuel3-wrap .cardCarousel-inner .card .card-title{
+        color: #1bd3b1;
+    }
+    .carosuel3-wrap .cardCarousel-inner .card:hover{
+        border-top: #1bd3b1 4px solid;
  
     }
     .blog .icon-wrap .col-sm-12:hover{
         color:#1fceaf;
 
+    }
+    .cardCarousel { 
+        overflow: hidden;
+         padding: 15px; 
+         width: 100%; 
+         position:relative;
+        }
+    .cardCarousel .cardCarousel-inner
+    { 
+       transition: 1s ease all;
+        float: left;
+    }
+    .cardCarousel .cardCarousel-inner .item
+    { 
+        float: left;
+       }
+    .cardCarousel .cardCarousel-inner .item > div
+    { 
+        margin:10px;
+       }
+    .cardCarousel .leftLst, .cardCarousel .rightLst
+    { 
+       position:absolute; 
+    }
+    .cardCarousel .leftLst
+    {
+        left:0; 
+       }
+    .cardCarousel .rightLst {
+        right:0; 
+       }
+    .cardCarousel .leftLst.over, .cardCarousel .rightLst.over 
+    { 
+       pointer-events: none; 
+       background:#fbfafa;
     }
     
     /* footer */
